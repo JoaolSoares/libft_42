@@ -6,15 +6,12 @@
 /*   By: jlucas-s <jlucas-s@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/13 22:32:05 by jlucas-s          #+#    #+#             */
-/*   Updated: 2022/06/17 00:42:03 by jlucas-s         ###   ########.fr       */
+/*   Updated: 2022/06/23 00:38:05 by jlucas-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strchr(const char *s, int c)
 {
-	int	i;
-
-	i = 0;
 	while (*s)
 	{
 		if (*s == (unsigned char)c)
